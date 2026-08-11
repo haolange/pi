@@ -1,0 +1,28 @@
+schema_version: 1
+module_path: ""
+title: pi Monorepo 根工作区
+scope:
+    - README.md
+    - CONTRIBUTING.md
+    - SECURITY.md
+    - AGENTS.md
+    - .gitignore
+    - .gitattributes
+    - .npmrc
+    - package.json
+    - package-lock.json
+    - tsconfig.json
+    - tsconfig.base.json
+    - biome.json
+    - vitest.base.ts
+    - .github/
+    - .pi/
+    - LICENSE
+    - pi-test.bat
+    - pi-test.ps1
+    - pi-test.sh
+    - test.sh
+    - tui-plan.md
+source_files: []
+depends_on: []
+related_to: []

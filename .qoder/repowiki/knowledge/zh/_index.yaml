@@ -1,0 +1,46 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: zh-CN
+branch: main
+nodes_managed: true
+exported_at: "2026-08-08T19:49:15Z"
+modules:
+    "":
+        dir_name: pi Monorepo 根工作区
+        title: pi Monorepo 根工作区
+        scope:
+            - README.md
+            - CONTRIBUTING.md
+            - SECURITY.md
+            - AGENTS.md
+            - .gitignore
+            - .gitattributes
+            - .npmrc
+            - package.json
+            - package-lock.json
+            - tsconfig.json
+            - tsconfig.base.json
+            - biome.json
+            - vitest.base.ts
+            - .github/
+            - .pi/
+            - LICENSE
+            - pi-test.bat
+            - pi-test.ps1
+            - pi-test.sh
+            - test.sh
+            - tui-plan.md
+        source_files: []
+        children:
+            - scripts
+        depends_on: []
+        related_to: []
+    scripts:
+        dir_name: 发布与工程运维脚本集
+        title: 发布与工程运维脚本集
+        scope:
+            - scripts/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
